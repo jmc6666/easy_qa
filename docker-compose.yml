@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  easy_qa:
+    #build: ./easydarwin
+    image: harbor.leaniot.cn/lib/easy_qa
+    container_name: easy_qa
+    network_mode: 'host'
+    restart: always
+    volumes:
+      - '/root/video:/video'
+
