@@ -1,7 +1,7 @@
 ## 部署步骤
 #### 1. 拉取部署仓库
 ```
-git@git.leaniot.cn:product/easy_qa.git
+git clone git@github.com:jmc6666/easy_qa.git
 ```
 #### 2. 启动服务
 ```
